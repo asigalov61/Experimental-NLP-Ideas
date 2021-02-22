@@ -8,7 +8,9 @@ This is a proposal for the fundamental/core mathematics as well as for the theor
 
 NOTES: 
 a) fu representation can be improved or extended (probably to infinity).
+
 b) pa representation can also be improved (also probably to infinity).
+
 c) Best way to improve fu and pa is through recursion but other methods can be used at a precision cost. So a balance is the key here.
 
 ### 3) Full proposed equation is therefore sum(G) = t(pa, pr, fu)
