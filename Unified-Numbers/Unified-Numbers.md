@@ -21,4 +21,8 @@ PRO TIP for simulation/implementation:
 2) Limit everything to a specific value to get a specific resolution on a specific number
 3) Most likely it is best to start with primes only as they would allow a good resolution at a sane compute cost
 
-I.e. G[pr] = t(pa, pr, fu) OR G[:360] = t[:360](pa[:360], pr, fu[:360]) would produce a year worth of numbers at daily resolution and complete representation.
+I.e. G[pr] = t[:60](pa, pr, fu) would produce ONE unified number at an hourly resolution and complete representation.
+
+OR 
+
+G[:360] = t[:360](pa[:360], pr, fu[:360]) would produce a year worth of unified numbers at a daily resolution and complete representation.
