@@ -4,7 +4,7 @@ This is a proposal for the fundamental/core mathematics as well as for the theor
 
 ### 1) Axiom: Sum of all numbers = G
 
-### 2) Each number(pr) is represented as t(pa, pr, fu), where t = time, pa = pr-pa, and fu = rand([pa, pr, pr+pa])
+### 2) Each number(pr) is represented as t(pa, pr, fu), where t = time, pa = pr-pa, and fu = rand[pa, pr+pa]
 
 NOTES: 
 a) fu representation can be improved or extended (probably to infinity).
@@ -13,7 +13,7 @@ b) pa representation can also be improved (also probably to infinity).
 
 c) Best way to improve fu and pa is through recursion but other methods can be used at a precision cost. So a balance is the key here.
 
-### 3) Full proposed equation is therefore sum(G) = t(pa, pr, fu)
+### 3) Full proposed equation is therefore sum(G) = sum(t(pa, pr, fu))
 
 Python code is elementary so I will add it later
 
@@ -27,4 +27,4 @@ I.e. G[pr] = t[:60](pa, pr, fu) would produce ONE unified number at an hourly re
 
 OR 
 
-G[:360] = t[:360](pa[:360], pr, fu[:360]) would produce a year worth of unified numbers at a daily resolution and complete representation.
+G[:360] = t[:360](pa[:360], pr[:360], fu[:360]) would produce a year worth of unified numbers at a daily resolution and complete representation.
