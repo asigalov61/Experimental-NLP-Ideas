@@ -4,7 +4,7 @@ This is a proposal for the fundamental/core mathematics as well as for the theor
 
 ### 1) Axiom: Sum of all numbers = G
 
-### 2) Each number(pr) is represented as t(pa, pr, fu), where t = time, pa = pr-pa, and fu = rand([pa-pr, pr, pa+pr])
+### 2) Each number(pr) is represented as t(pa, pr, fu), where t = time, pa = pr-pa, and fu = rand([pa, pr, pr+pa])
 
 NOTES: 
 a) fu representation can be improved or extended (probably to infinity).
